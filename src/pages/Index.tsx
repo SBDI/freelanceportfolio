@@ -6,6 +6,7 @@ import Resume from "@/components/Resume";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Testimonials from "@/components/Testimonials";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <PortfolioGrid />
       <Services />
       <Resume />
+      <Testimonials />
       <Skills />
       <Contact />
       <Footer />
