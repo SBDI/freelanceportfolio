@@ -5,6 +5,7 @@ import Services from "@/components/Services";
 import Resume from "@/components/Resume";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <Resume />
       <Skills />
       <Contact />
+      <Footer />
     </div>
   );
 };
