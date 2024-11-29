@@ -1,21 +1,21 @@
 const services = [
   {
-    icon: "🎯",
-    title: "Strategy & Direction",
+    icon: "📊",
+    title: "Data Analysis & Visualization",
     description:
-      "Defining the problem, identifying the scope and finally, organizing the design roadmap to bring out the best of every project.",
+      "Transform raw data into actionable insights through statistical analysis and creating compelling visualizations that tell your data story.",
   },
   {
-    icon: "✨",
-    title: "Design UI/UX",
+    icon: "🤖",
+    title: "Machine Learning Solutions",
     description:
-      "Website, application or other design related tasks. I love tackling digital problems and help in them.",
+      "Develop and deploy custom machine learning models for prediction, classification, and pattern recognition to solve your business challenges.",
   },
   {
-    icon: "📱",
-    title: "Mobile App",
+    icon: "🔍",
+    title: "Business Intelligence",
     description:
-      "It's 2020, we should really step up our mobile game a bit more, right? Open to tackling new mobile projects.",
+      "Create comprehensive BI solutions including dashboards, automated reporting, and KPI tracking to drive data-informed decision making.",
   },
 ];
 
