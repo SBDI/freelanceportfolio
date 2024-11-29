@@ -42,8 +42,8 @@ const PortfolioGrid = () => {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div
-                className={`absolute inset-0 bg-gradient-to-t from-dark-200/90 to-dark-200/20 p-6 flex flex-col justify-end transform transition-all duration-300 ${
-                  hoveredIndex === index ? "opacity-100" : "opacity-0"
+                className={`absolute inset-0 bg-gradient-to-t from-dark-200/90 to-dark-200/20 p-6 flex flex-col justify-end transition-opacity duration-300 ${
+                  hoveredIndex === index ? "opacity-100" : "opacity-90"
                 }`}
               >
                 <span className="text-sm text-white/70 mb-2">{project.category}</span>
