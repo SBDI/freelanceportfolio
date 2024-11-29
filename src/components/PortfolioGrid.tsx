@@ -27,7 +27,7 @@ const PortfolioGrid = () => {
   return (
     <section id="work" className="py-20">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold mb-12 text-center">Featured Projects</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center text-white">Featured Projects</h2>
         <div className="portfolio-grid">
           {projects.map((project, index) => (
             <div
@@ -46,9 +46,9 @@ const PortfolioGrid = () => {
                   hoveredIndex === index ? "opacity-100" : "opacity-0"
                 }`}
               >
-                <span className="text-sm text-white/70 mb-2">{project.category}</span>
-                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-white/70">{project.description}</p>
+                <span className="text-sm text-purple-300 mb-2">{project.category}</span>
+                <h3 className="text-xl font-semibold mb-2 text-white">{project.title}</h3>
+                <p className="text-purple-200">{project.description}</p>
               </div>
             </div>
           ))}
