@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-xl font-semibold">DS.Portfolio</h3>
+            <h3 className="text-xl font-semibold">Mohamed Bouabidi</h3>
             <p className="text-white/70 max-w-xs">
               Transforming data into actionable insights through innovative solutions and analytics.
             </p>
@@ -46,7 +46,7 @@ const Footer = () => {
 
         <div className="border-t border-white/10 pt-8">
           <p className="text-center text-white/60 text-sm">
-            © {new Date().getFullYear()} DS.Portfolio. All rights reserved.
+            © {new Date().getFullYear()} Mohamed Bouabidi. All rights reserved.
           </p>
         </div>
       </div>

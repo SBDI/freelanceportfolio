@@ -2,28 +2,23 @@ import React from 'react';
 
 const experiences = [
   {
-    company: "Uber",
-    title: "Product Designer",
-    period: "August 2018 - December 2019",
+    company: "Groupe Managem",
+    title: "Data Scientist",
+    period: "Octobr 2021 - December 2023",
   },
   {
-    company: "Apple",
-    title: "Product Designer",
-    period: "December 2019 - Current",
+    company: "Berexia Consulting",
+    title: "Data Scientist",
+    period: "Junuary 2024 - Current",
   },
 ];
 
 const education = [
   {
-    school: "SUNY Polytechnic Institute",
-    degree: "MS • Information Design & Technology",
-    period: "2016 - 2017",
-  },
-  {
-    school: "Florida Gulf Coast University",
-    degree: "BA • Psychology",
-    period: "2014 - 2015",
-  },
+    school: "Mines Rabat",
+    degree: "Eng. Information Systems Management",
+    period: "2018 - 2021",
+  }
 ];
 
 const Resume = () => {

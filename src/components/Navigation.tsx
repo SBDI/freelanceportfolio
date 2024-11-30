@@ -19,8 +19,8 @@ const Navigation = () => {
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="/" className="text-xl font-semibold">
-          DS.Portfolio
+        <a href="/" className="text-l font-semibold">
+          Mohamed BOUABIDI
         </a>
         <div className="flex gap-8">
           <a href="#work" className="nav-link">
