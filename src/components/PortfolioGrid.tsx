@@ -6,25 +6,24 @@ const projects = [
         description: "Created a predictive model to assist mine planning by analyzing key geo-metallurgical factors for resource allocation.",
         image: "project1.png",
         tags: ["Python", "Scikit-learn", "Data Analytics"],
-        Category: "Machine Learning"
+        category: "Machine Learning"
       },
       {
         title: "Automated Email Categorization",
         description: "Built a Python-based machine learning solution to automate email data extraction and categorization, increasing operational efficiency by 25%.",
         image: "project2.png",
         tags: ["Python", "Flask", "NLP", "Azure"],
-        Category: "Natural Language Processing"
+        category: "Natural Language Processing"
       },
       {
         title: "Reporting System for Decision Support",
         description: "Designed and implemented a reporting system using Power BI and SQL to support data-driven decision-making processes.",
         image: "project3.jpg",
         tags: ["Power BI", "SQL", "Data Visualization"],
-        Category: "Data Analysis & Viz"
+        category: "Data Analysis & Viz"
       }
     ];
     
-
     const PortfolioGrid = () => {
       const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
     
