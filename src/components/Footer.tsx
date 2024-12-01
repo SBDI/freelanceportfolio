@@ -11,13 +11,13 @@ const Footer = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const linkedinProfileUrl = "https://www.linkedin.com/in/mohamed-bouabidi/";
+    const email = "mohamed.bouabidi@example.com";
     const encodedSubject = encodeURIComponent(subject);
     const encodedMessage = encodeURIComponent(message);
-    const messageUrl = `${linkedinProfileUrl}/message?subject=${encodedSubject}&body=${encodedMessage}`;
+    const mailtoUrl = `mailto:${email}?subject=${encodedSubject}&body=${encodedMessage}`;
     
-    window.open(messageUrl, '_blank');
-    toast.success("Redirecting to LinkedIn messaging");
+    window.location.href = mailtoUrl;
+    toast.success("Opening email client");
     setMessage("");
     setSubject("");
   };
@@ -48,10 +48,10 @@ const Footer = () => {
               </div>
               <Button 
                 type="submit" 
-                className="w-full bg-[#0077B5] hover:bg-[#006097] text-white transition-colors"
+                className="w-full bg-blue-500 hover:bg-blue-600 text-white transition-colors"
               >
-                <Linkedin className="w-5 h-5 mr-2" />
-                Send via LinkedIn
+                <Mail className="w-5 h-5 mr-2" />
+                Send via Email
               </Button>
             </form>
           </div>
@@ -61,7 +61,7 @@ const Footer = () => {
             <h3 className="text-2xl font-semibold text-white">My Coordinates</h3>
             <div className="space-y-6">
               <div className="flex items-center gap-4 text-white/70 hover:text-white transition-colors group">
-                <div className="bg-dark-100 p-3 rounded-lg group-hover:bg-[#0077B5] transition-colors">
+                <div className="bg-dark-100 p-3 rounded-lg group-hover:bg-blue-500 transition-colors">
                   <Mail className="h-6 w-6" />
                 </div>
                 <div>
