@@ -67,7 +67,7 @@ const Footer = () => {
                 <div>
                   <p className="text-sm text-white/50">Email</p>
                   <a href="mailto:mohamed.bouabidi@example.com" className="text-lg">
-                    mohamed.bouabidi@example.com
+                    m.bouabidi@enim.ac.ma
                   </a>
                 </div>
               </div>
@@ -84,7 +84,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     className="text-lg"
                   >
-                    mohamed.bouabidi
+                    https://www.linkedin.com/in/mohamed-bouabidi/
                   </a>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     className="text-lg"
                   >
-                    yourusername
+                    bouabidi
                   </a>
                 </div>
               </div>
