@@ -27,17 +27,17 @@ const Navigation = () => {
       tooltip: "LinkedIn",
     },
     {
-      icon: <Database className="h-5 w-5" />,
+      icon: <fa-kaggle className="h-5 w-5" />,
       href: "https://www.kaggle.com/mohamedbouabidi",
       tooltip: "Kaggle",
     },
     {
       icon: <Mail className="h-5 w-5" />,
-      href: "mailto:mohamed.bouabidi@example.com",
+      href: "mailto:m.bouabidi@enim.ac.ma",
       tooltip: "Email",
     },
     {
-      icon: <Phone className="h-5 w-5" />,
+      icon: <faWhatsapp className="h-5 w-5" />,
       href: "tel:+21612345678",
       tooltip: "+216 12 345 678",
     },
