@@ -25,8 +25,7 @@ const Resume = () => {
   return (
     <section className="py-20 bg-dark-200">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-normal mb-16">Resume</h2>
-        
+        <h2 className="text-4xl font-bold mb-16 text-center">Resume</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Experience Section */}
           <div>
