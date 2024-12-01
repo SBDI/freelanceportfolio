@@ -27,7 +27,7 @@ const Navigation = () => {
       tooltip: "LinkedIn",
     },
     {
-      icon: <fa-kaggle className="h-5 w-5" />,
+      icon: <img src="https://www.kaggle.com/static/images/favicon.ico" alt="Kaggle Icon" className="h-5 w-5" />,
       href: "https://www.kaggle.com/mohamedbouabidi",
       tooltip: "Kaggle",
     },
@@ -37,7 +37,7 @@ const Navigation = () => {
       tooltip: "Email",
     },
     {
-      icon: <faWhatsapp className="h-5 w-5" />,
+      icon: <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" className="h-5 w-5" />,      
       href: "tel:+21612345678",
       tooltip: "+216 12 345 678",
     },
@@ -50,8 +50,9 @@ const Navigation = () => {
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="/" className="text-l font-semibold">
-          Mohamed BOUABIDI
+        <a href="/" className="text-l font-semibold flex items-center gap-2">
+          <img src="/favicon.png" alt="Logo" className="w-6 h-6" />
+          DS
         </a>
         <div className="flex items-center gap-8">
           <div className="hidden md:flex gap-8">
