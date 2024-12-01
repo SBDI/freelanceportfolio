@@ -32,7 +32,7 @@ const Services = () => {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="text-6xl mb-6">{service.icon}</div>
-              <h3 className="text-2xl font-bold mb-6">{service.title}</h3>
+              <h3 className="text-xl font-semibold mb-4">{service.title}</h3> text-xl font-semibold mb-4
               <p className="text-lg text-white/80 leading-relaxed">{service.description}</p>
             </div>
           ))}
