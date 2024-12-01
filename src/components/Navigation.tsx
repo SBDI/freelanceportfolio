@@ -51,8 +51,8 @@ const Navigation = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="/" className="text-l font-semibold flex items-center gap-2">
-          <img src="/logo.png" alt="Logo" className="w-12 h-12 object-contain" />
-          Mohamed Bouabidi
+          <img src="/images/logo.png" alt="Logo" className="w-16 h-16 object-contain" />
+          <span className="hidden sm:inline">Mohamed Bouabidi</span>
         </a>
         <div className="flex items-center gap-8">
           <div className="hidden md:flex gap-8">
