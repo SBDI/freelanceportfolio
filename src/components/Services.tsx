@@ -1,21 +1,21 @@
 const services = [
   {
-    icon: "📊",
-    title: "Data Analysis & Visualization",
+    icon: "🔍",
+    title: "Data Analytics & Insights",
     description:
-      "Transform raw data into actionable insights through statistical analysis and creating compelling visualizations that tell your data story.",
+      "Unlock the story in your data with advanced analytics and professional visualizations. Empower decision-making and drive growth with actionable insights.",
   },
   {
     icon: "🤖",
-    title: "Machine Learning Solutions",
+    title: "AI and Machine Learning Solutions",
     description:
-      "Develop and deploy custom machine learning models for prediction, classification, and pattern recognition to solve your business challenges.",
+      "Develop and deploy custom AI and machine learning models tailored to your business challenges, delivering intelligent solutions with measurable results.",
   },
   {
-    icon: "🔍",
-    title: "Business Intelligence",
+    icon: "⚙️",
+    title: "Data Engineering & Automation",
     description:
-      "Create comprehensive BI solutions including dashboards, automated reporting, and KPI tracking to drive data-informed decision making.",
+      "Streamline your data workflows by designing scalable pipelines and integrating cloud-based solutions for enhanced efficiency and reliability.",
   },
 ];
 
@@ -32,8 +32,10 @@ const Services = () => {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="text-6xl mb-6">{service.icon}</div>
-              <h3 className="text-xl font-semibold mb-4">{service.title}</h3> text-xl font-semibold mb-4
-              <p className="text-lg text-white/80 leading-relaxed">{service.description}</p>
+              <h3 className="text-xl font-semibold mb-4">{service.title}</h3>
+              <p className="text-lg text-white/80 leading-relaxed">
+                {service.description}
+              </p>
             </div>
           ))}
         </div>
