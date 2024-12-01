@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center pt-20">
       <div className="container mx-auto px-6 text-center">
         <div className="animate-fade-up">
-          <div className="w-40 h-40 mx-auto mb-16 rounded-full overflow-hidden">
+          <div className="w-48 h-48 mx-auto mb-16 rounded-full overflow-hidden">
             <img
               src="profile.jpg"
               alt="Profile"
