@@ -11,7 +11,7 @@ const Footer = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const email = "mohamed.bouabidi@example.com";
+    const email = "m.bouabidi@enim.ac.ma";
     const encodedSubject = encodeURIComponent(subject);
     const encodedMessage = encodeURIComponent(message);
     const mailtoUrl = `mailto:${email}?subject=${encodedSubject}&body=${encodedMessage}`;
@@ -96,7 +96,7 @@ const Footer = () => {
                 <div>
                   <p className="text-sm text-white/50">GitHub</p>
                   <a 
-                    href="https://github.com/yourusername" 
+                    href="https://github.com/SBDI" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-lg"
