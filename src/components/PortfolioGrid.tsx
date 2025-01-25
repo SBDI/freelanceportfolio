@@ -21,6 +21,13 @@ const projects = [
     image: "project3.jpg",
     tags: ["Power BI", "SQL", "Data Visualization"],
     category: "Data Analysis & Viz"
+  },
+  {
+    title: "AI Smart sales agent",
+    description: "The agent assists customers with product inquiries, order placement, order tracking, and personalized recommendations.",
+    image: "project4.jpg",
+    tags: ["LLMs", "LangChain", "AI Agents"],
+    category: "Data Analysis & Viz"
   }
 ];
 
