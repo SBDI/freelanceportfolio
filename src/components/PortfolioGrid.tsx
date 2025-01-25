@@ -13,21 +13,21 @@ const projects = [
     description: "Built a Python-based machine learning solution to automate email data extraction and categorization, increasing operational efficiency by 25%.",
     image: "project2.png",
     tags: ["Python", "Flask", "NLP", "Azure"],
-    category: "Natural Language Processing"
+    category: "NLP Automation"
   },
   {
     title: "Reporting System for Decision Support",
     description: "Designed and implemented a reporting system using Power BI and SQL to support data-driven decision-making processes.",
     image: "project3.jpg",
     tags: ["Power BI", "SQL", "Data Visualization"],
-    category: "Data Analysis & Viz"
+    category: "Data Analytics"
   },
   {
     title: "AI Smart sales agent",
     description: "The agent assists customers with product inquiries, order placement, order tracking, and personalized recommendations.",
     image: "project4.jpg",
     tags: ["LLMs", "LangChain", "AI Agents"],
-    category: "Data Analysis & Viz"
+    category: "Genenerative AI"
   }
 ];
 

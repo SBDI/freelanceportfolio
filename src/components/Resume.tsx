@@ -4,20 +4,30 @@ const experiences = [
   {
     company: "Groupe Managem",
     title: "Data Scientist",
-    period: "Octobr 2021 - December 2023",
+    period: "Oct 2021 - Dec 2023",
   },
   {
     company: "Berexia Consulting",
     title: "Data Scientist",
-    period: "Junuary 2024 - Current",
+    period: "Dec 2024 - May 2024",
   },
+  {
+    company: "Freelance",
+    title: "Data Scientist Gen AI",
+    period: "June 2024 -  Current",
+  }
 ];
 
 const education = [
   {
     school: "Mines Rabat",
     degree: "Eng. Information Systems Management",
-    period: "2018 - 2021",
+    period: "2017 - 2021",
+  },
+  {
+    school: "CPGE",
+    degree: "Maths & Physics",
+    period: "2017 - 2021",
   }
 ];
 
