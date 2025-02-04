@@ -2,19 +2,19 @@ import React from 'react';
 
 const experiences = [
   {
-    company: "Groupe Managem",
-    title: "Data Scientist",
-    period: "Oct 2021 - Dec 2023",
+    company: "Freelance",
+    title: "Gen AI Data Scientist",
+    period: "June 2024 -  Current",
   },
   {
     company: "Berexia Consulting",
-    title: "Data Scientist",
+    title: "Consultant Data Scientist",
     period: "Dec 2024 - May 2024",
   },
   {
-    company: "Freelance",
-    title: "Data Scientist Gen AI",
-    period: "June 2024 -  Current",
+    company: "Groupe Managem",
+    title: "Data Scientist",
+    period: "Oct 2021 - Dec 2023",
   }
 ];
 
@@ -23,12 +23,8 @@ const education = [
     school: "Mines Rabat",
     degree: "Eng. Information Systems Management",
     period: "2017 - 2021",
-  },
-  {
-    school: "CPGE",
-    degree: "Maths & Physics",
-    period: "2017 - 2021",
   }
+ 
 ];
 
 const Resume = () => {
